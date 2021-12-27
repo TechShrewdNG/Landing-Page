@@ -81,12 +81,15 @@ function PlasmicNavbar__RenderFunc(props) {
             {"Company"}
           </Button>
 
-          <Button
-            className={classNames("__wab_instance", sty.button___3C4Kv)}
-            color={"navLink"}
-          >
-            {"Contact"}
-          </Button>
+          {true ? (
+            <Button
+              className={classNames("__wab_instance", sty.button___3C4Kv)}
+              color={"navLink"}
+              link={"/contact"}
+            >
+              {"Contact"}
+            </Button>
+          ) : null}
 
           <Button
             className={classNames("__wab_instance", sty.button__rsUWn)}

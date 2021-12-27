@@ -169,6 +169,7 @@
 }
 .button___3C4Kv:global(.__wab_instance) {
   position: relative;
+  display: flex;
 }
 .svg__zSGn {
   width: 24px;
